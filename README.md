@@ -48,7 +48,7 @@ git clone https://github.com/S-um/42assignment_checker
 ```
 위 커맨드를 터미널에 입력
 
-### **ubuntu bashsh 에서**
+### **ubuntu bash 에서**
 
 ```
 git clone https://github.com/S-um/42assignment_checker
