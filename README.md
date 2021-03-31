@@ -1,17 +1,70 @@
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  
 
-설치 방법
--깃 클론 후
-	./installchecker.sh
-	위 커맨드를 터미널에 입력
+  <h1 style="font-size:30pt" align="center">42 Assignment Checker</h1>
+
+  <p align="center">
+    42 서울 과제를 check 명령어 단 하나로 검사하세요!!<br><br>
+  <a href="https://github.com/S-um/42assignment_checker">
+    <img src="Images/assign_check.PNG" alt="Logo">
+  </a>
+  </p>
+</p>
+
+<br><br>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><b>Table of Contents</b></summary>
+  <ol>
+    <li>
+      <a href="#설치-방법">설치 방법</a>
+      <ul>
+        <li><a href="#맥-zsh-에서">맥 zsh 에서 설치</a></li>
+        <li><a href="#ubuntu-bashsh-에서">우분투 bashsh 에서 설치</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#사용-방법">사용 방법</a>
+    </li>
+    <li>
+      <a href="#출력-형식">출력 형식</a>
+    </li>
+  </ol>
+</details>
+
+<br><br><br>
+<!-- GETTING STARTED -->
+
+## **설치 방법**
+
+### **맥 zsh 에서**
+
+```
+git clone https://github.com/S-um/42assignment_checker
+./installchecker.sh
+```
+위 커맨드를 터미널에 입력
+
+### **ubuntu bashsh 에서**
+
+```
+git clone https://github.com/S-um/42assignment_checker
+./installchecker_bash.sh
+```
+위 커맨드를 터미널에 입력
+
+## **사용 방법**
+
+확인하려는 c 과제 디렉토리 (`.git` 디렉터리가 있는 프로젝트 최상위 디렉터리)에서
+`check` 명령어를 터미널에 입력
 
 
-사용 방법
-최종확인하고싶은 c 과제 디렉토리(ls하면 ex00 ex01등등)에서
-	check
-	를 터미널에 입력
+## **출력 형식**
 
-
-출력 형식
+```
 ======= print files ==========
 해당 디렉토리 안의 디렉토리(exXX)에 있는 c 파일 출력
 ==============================
@@ -25,3 +78,4 @@
 해당 디렉토리 안의 디렉토리(exXX)에 있는 c 파일들을 gcc로 돌릴 시 나온 에러 결과 출력
 	=>이 때 아무것도 출력되지 않는다면 모든 파일이 정상적으로 출력이 가능하다는 의미
 	=>main이 포함된 파일이라면 정상적으로 처리되지 않습니다
+```
