@@ -23,7 +23,7 @@
       <a href="#설치-방법">설치 방법</a>
       <ul>
         <li><a href="#맥-zsh-에서">맥 zsh 에서 설치</a></li>
-        <li><a href="#ubuntu-bashsh-에서">우분투 bashsh 에서 설치(not yet)</a></li>
+        <li><a href="#ubuntu-bashsh-에서">우분투 bashsh 에서 설치</a></li>
       </ul>
     </li>
     <li>
@@ -57,6 +57,8 @@ git clone https://github.com/S-um/42assignment_checker
 위 커맨드를 터미널에 입력
 
 ## **사용 방법**
+
+**norminette 가 설치되어 있어야 사용 가능합니다!!**
 
 확인하려는 c 과제 디렉토리 (`.git` 디렉터리가 있는 프로젝트 최상위 디렉터리)에서
 `check` 명령어를 터미널에 입력
