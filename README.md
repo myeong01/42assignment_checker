@@ -8,7 +8,7 @@
   <p align="center">
     42 서울 과제를 check 명령어 단 하나로 검사하세요!!<br><br>
   <a href="https://github.com/S-um/42assignment_checker">
-    <img src="Images/assign_check.PNG" alt="Logo">
+    <img src="Images/assignment_check.png" alt="Logo">
   </a>
   </p>
 </p>
