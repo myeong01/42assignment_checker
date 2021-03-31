@@ -23,7 +23,7 @@
       <a href="#설치-방법">설치 방법</a>
       <ul>
         <li><a href="#맥-zsh-에서">맥 zsh 에서 설치</a></li>
-        <li><a href="#ubuntu-bashsh-에서">우분투 bashsh 에서 설치</a></li>
+        <li><a href="#ubuntu-bashsh-에서">우분투 bashsh 에서 설치(not yet)</a></li>
       </ul>
     </li>
     <li>
