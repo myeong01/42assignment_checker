@@ -9,6 +9,6 @@ norminette -R CheckForbiddenSourceHeader */*.c
 echo "\n======================================================================================================================\n"
 echo "\n\n=================================================== gcc check ====================================================\n\n"
 echo "\nIf there is no text, it means there are no errors.\n\n"
-gcc -Wall -Wextra -Werror ./*/*.c ~/alias_setting/check_main.c -o 42checker_temp.out
-rm 42checker_temp.out
+gcc -Wall -Wextra -Werror -c ./*/*.c
+rm *.o
 echo "\n======================================================================================================================\n"
