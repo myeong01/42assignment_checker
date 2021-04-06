@@ -44,7 +44,9 @@
 
 ```
 git clone https://github.com/S-um/42assignment_checker
+cd 42assignment_checker
 ./installchecker.sh
+source ~/.zshrc
 ```
 위 커맨드를 터미널에 입력
 
@@ -52,7 +54,9 @@ git clone https://github.com/S-um/42assignment_checker
 
 ```
 git clone https://github.com/S-um/42assignment_checker
+cd 42assignment_checker
 ./installchecker_bash.sh
+source ~/.bashrc
 ```
 위 커맨드를 터미널에 입력
 
